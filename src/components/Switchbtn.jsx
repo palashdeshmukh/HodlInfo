@@ -10,7 +10,6 @@ function Switchbtn() {
 
   const onColor ='#2E3241'
   const offColor ='#FFFFFF'
-  const uncheckedIcon='#2E32'
   return (
     <div className="app" style={{textAlign: "center"}}>
       <ReactSwitch
