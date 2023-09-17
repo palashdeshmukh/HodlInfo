@@ -3,8 +3,6 @@ import '../styles/Cryptotable.css';
 
 function Cryptotable() {
   const [tickers, setTickers] = useState([]);
-  const [counter, setCounter] = useState(1); // Initialize counter to 1
-
   useEffect(() => {
     // Define the API URL
     const apiUrl = 'http://localhost:3001/api/v2/tickers';
@@ -43,7 +41,7 @@ function Cryptotable() {
           <tbody>
             {Object.values(tickers).map((item) => (
               <tr key={item.id}>
-                <td><h2 className='curveBox-one'>{counter}</h2></td>
+                <td><h2 className='curveBox-one'>{1}</h2></td>
                 <td><h2>{item.base_unit}</h2></td>
                 <td><h2>{formatNumberWithCommas(item.last)}</h2></td>
                 <td><h2>{formatNumberWithCommas(item.buy)} / {formatNumberWithCommas(item.sell)}</h2></td>
