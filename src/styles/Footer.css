@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@300;500&family=Oswald&display=swap');
+
+#footer-contanier{
+    border-top: 1px solid gray;
+    width: 100%;
+}
+#footer-copywrite-text{
+    color: gray;
+    font-size: 12px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between; 
+    font-family: 'Oswald', sans-serif;
+
+
+}
+#footer-text-one{
+display: flex;
+width: 150px;
+justify-content: space-between;
+}
+#footer-btn-container{
+    display: flex;
+    justify-content: center;
+    padding:3px;
+}
+#footer-btn{
+    font-size: 16px;
+    padding: 10px 14px 10px 14px;
+    background-color: transparent;
+    box-shadow: none;
+    border-style:initial;
+    color: #17A2B8;
+    border-radius: 5px;
+    border: 1px solid #17A2B8;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+#footer-btn:hover{
+    background-color: #17A2B8;
+    color: white;
+}

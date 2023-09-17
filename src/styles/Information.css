@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@300;500&family=Oswald&display=swap');
+
+#information-container{
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+#heading-container{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+
+}
+#heading-text-top{
+    font-size: 32px;
+    text-align: center;
+    color:gray;
+    letter-spacing: 0.75px;
+    font-family: 'Oswald', sans-serif;
+}
+#heading-price{
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    letter-spacing: 0.75px;
+    font-family: 'Oswald', sans-serif;
+}
+#heading-text-bottom{
+    font-size: 18px;
+    text-align: center;
+    color:gray;
+    letter-spacing: 0.75px;
+    font-family: 'Oswald', sans-serif;
+}
+.text-header-container{
+    width: 120px;
+}
+.text-percent{
+color:#3DC6C1;
+text-align: center;
+font-size: 40px;
+letter-spacing: 0.75px;
+font-family: 'Oswald', sans-serif;
+}
+.text-time{
+font-size: 20px;
+color:gray;
+text-align: center;
+letter-spacing: 0.75px;
+font-family: 'Oswald', sans-serif;
+
+}
+/* Responsive CSS */
+@media (max-width: 768px) {
+    #information-container {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      align-items: center; /* Center items vertically */
+    }
+  
+    .text-header-container {
+      margin-bottom: 20px; /* Add spacing between text-header-container items */
+    }
+  }
+  @media (max-width: 568px) {
+    #heading-container{
+        width: 100%;
+    }
+    #heading-price{
+        font-size: 70px;
+
+    }
+  }
